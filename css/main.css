@@ -428,7 +428,116 @@ body {
   }
 }
 @media (max-width: 700px) {
+  .pets__title {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FEFEFE;
+    margin-bottom: 30px;
+    transition: all 0.3s;
+  }
   .pets__monkey, .pets__eagle {
     display: none;
+  }
+}
+.section-money {
+  padding: 100px 0;
+}
+
+.money {
+  text-align: center;
+}
+
+.money__title {
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FEFEFE;
+  margin-bottom: 30px;
+  transition: all 0.3s;
+}
+
+.money__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FEFEFE;
+  margin-bottom: 50px;
+  transition: all 0.3s;
+}
+
+.money__content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 17px;
+  margin-bottom: 60px;
+}
+
+.money__bottom-arrow {
+  display: none;
+}
+
+.money__btn {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FEFEFE;
+  margin-bottom: 0px;
+  transition: all 0.3s;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: #FEFEFE;
+  margin-bottom: 0px;
+  transition: all 0.3s;
+  padding: 18px 88px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  background-color: #49D6DF;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.money__btn:hover {
+  background-color: #FEFEFE;
+  color: #49D6DF;
+  border-color: #49D6DF;
+}
+
+@media (max-width: 1024px) {
+  .money__content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 30px;
+    flex-direction: column;
+  }
+  .money__right-arrow {
+    display: none;
+  }
+  .money__bottom-arrow {
+    display: block;
+  }
+}
+@media (max-width: 748px) {
+  .money__title {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FEFEFE;
+    margin-bottom: 30px;
+    transition: all 0.3s;
+  }
+  .money__text {
+    display: none;
+  }
+  .money__content-wrapper {
+    margin-bottom: 50px;
   }
 }/*# sourceMappingURL=main.css.map */

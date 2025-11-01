@@ -24,6 +24,9 @@
 }
 
 @media (max-width:700px) {
+    .pets__title{
+        @include TetxStyle($FW:900, $FS:36px, $LH:100%, $LS:0%, $CLR:$clr-white, $MB:30px);
+    }
     .pets__monkey, .pets__eagle {
         display: none;
     } 

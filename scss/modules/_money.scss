@@ -1,0 +1,47 @@
+.section-money {
+    padding: 100px 0;
+}
+.money {
+    text-align: center;
+}
+.money__title {
+    @include TetxStyle($FW:900, $FS:48px, $LH:100%, $LS:0%, $CLR:$clr-white, $MB:30px);
+}
+.money__text {
+    @include TetxStyle($FW:400, $FS:14px, $LH:100%, $LS:0%, $CLR:$clr-white, $MB:50px);
+}
+.money__content-wrapper {
+    @include Display($items:center, $justify:center, $gap:17px);
+    margin-bottom: 60px;
+}
+.money__bottom-arrow {
+    display: none;
+}
+.money__btn {
+    @include TetxStyle($FW:900, $FS:18px, $LH:100%, $LS:0%, $CLR:$clr-white, $MB:0px);
+    @include BtnStyle($P:18px 88px, $BC:$clr-blue);
+}
+
+@media (max-width:1024px){
+    .money__content-wrapper {
+        @include Display($items:center, $justify:start, $gap:30px);
+        flex-direction: column;
+    }
+    .money__right-arrow {
+        display: none;
+    }
+    .money__bottom-arrow {
+        display: block;
+    }
+}
+@media (max-width:748px) {
+    .money__title {
+        @include TetxStyle($FW:900, $FS:36px, $LH:100%, $LS:0%, $CLR:$clr-white, $MB:30px);
+    }
+    .money__text {
+        display: none;
+    }
+    .money__content-wrapper {
+        margin-bottom: 50px;
+    }
+}
