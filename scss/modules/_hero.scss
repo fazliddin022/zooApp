@@ -58,7 +58,7 @@
     .hero__title {
         @include TetxStyle($FW:900, $FS:48px, $LH:100%, $LS:0%, $CLR:$clr-white, $MB:15px);
     }
-    .hero__social--wrapper {
+    .hero__social-wrapper {
         display: none;
     }
 }
