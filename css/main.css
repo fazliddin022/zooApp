@@ -170,7 +170,7 @@ body {
   fill: #49D6DF;
 }
 
-.hero__social--wrapper {
+.hero__social-wrapper {
   display: flex;
   align-items: center;
   justify-content: start;

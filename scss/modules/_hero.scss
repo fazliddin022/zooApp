@@ -28,7 +28,7 @@
         fill: $clr-blue;
     }
 }
-.hero__social--wrapper {
+.hero__social-wrapper {
     @include Display($items:center, $justify:start, $gap:10px);
     flex-direction: column;
     position: absolute;
