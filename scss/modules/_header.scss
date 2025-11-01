@@ -1,0 +1,42 @@
+.site-header {
+    padding: 26px 0px;
+}
+.header {
+    @include Display($items:center, $justify:space-between, $gap:0px)
+}
+.header__logo-link {
+    display: inline-block;
+}
+.navbar {
+    @include Display($items:center, $justify:start, $gap:83px);
+}
+.navbar__link {
+    @include TetxStyle($FW:500, $FS:16px, $LH:100%, $LS:0%, $CLR:$clr-white, $MB:0px, $HCLR:$clr-white);
+    border-bottom: 1px solid transparent;
+    &:hover {
+         @include TetxStyle($FW:900, $FS:16px, $LH:100%, $LS:0%, $CLR:$clr-white, $MB:0px, $HCLR:$clr-white);
+        border-bottom-color: $clr-white;;
+    }
+}
+
+.header__btn {
+    background-color: transparent;
+    border: none;
+}
+.header__burger-btn {
+    display: none;
+    background-color: transparent;
+    border: none;
+}
+
+@media (max-width:755px) {
+    .navbar {
+        display: none;
+    }
+    .header__burger-btn {
+        display: block;
+    }
+    .header__btn-wrapper {
+        @include Display($items:center, $justify:start, $gap:34px);
+    }
+}

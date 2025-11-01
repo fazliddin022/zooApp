@@ -1,0 +1,114 @@
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v49-latin-regular.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/roboto-v49-latin-500.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/roboto-v49-latin-900.woff2") format("woff2");
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #333333;
+}
+
+.containers {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 11px;
+}
+
+.site-header {
+  padding: 26px 0px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0px;
+}
+
+.header__logo-link {
+  display: inline-block;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 83px;
+}
+
+.navbar__link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FEFEFE;
+  margin-bottom: 0px;
+  transition: all 0.3s;
+  border-bottom: 1px solid transparent;
+}
+.navbar__link:hover {
+  color: #FEFEFE;
+}
+.navbar__link:hover {
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FEFEFE;
+  margin-bottom: 0px;
+  transition: all 0.3s;
+  border-bottom-color: #FEFEFE;
+}
+.navbar__link:hover:hover {
+  color: #FEFEFE;
+}
+
+.header__btn {
+  background-color: transparent;
+  border: none;
+}
+
+.header__burger-btn {
+  display: none;
+  background-color: transparent;
+  border: none;
+}
+
+@media (max-width: 755px) {
+  .navbar {
+    display: none;
+  }
+  .header__burger-btn {
+    display: block;
+  }
+  .header__btn-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 34px;
+  }
+}/*# sourceMappingURL=main.css.map */
