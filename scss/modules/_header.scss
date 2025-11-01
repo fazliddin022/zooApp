@@ -11,10 +11,10 @@
     @include Display($items:center, $justify:start, $gap:83px);
 }
 .navbar__link {
-    @include TetxStyle($FW:500, $FS:16px, $LH:100%, $LS:0%, $CLR:$clr-white, $MB:0px, $HCLR:$clr-white);
+    @include TetxStyle($FW:500, $FS:16px, $LH:100%, $LS:0%, $CLR:$clr-white, $MB:0px);
     border-bottom: 1px solid transparent;
     &:hover {
-         @include TetxStyle($FW:900, $FS:16px, $LH:100%, $LS:0%, $CLR:$clr-white, $MB:0px, $HCLR:$clr-white);
+         @include TetxStyle($FW:900, $FS:16px, $LH:100%, $LS:0%, $CLR:$clr-white, $MB:0px);
         border-bottom-color: $clr-white;;
     }
 }

@@ -5,7 +5,7 @@
     gap: $gap;
 }
 
-@mixin TetxStyle($FW, $FS, $LH, $LS, $CLR, $MB, $HCLR) {
+@mixin TetxStyle($FW, $FS, $LH, $LS, $CLR, $MB) {
     font-weight: $FW;
     font-size: $FS;
     line-height: $LH;
@@ -13,14 +13,10 @@
     color: $CLR;
     margin-bottom: $MB;
     transition: all 0.3s;
-
-    &:hover{
-        color: $HCLR;
-    }
 }
 
 @mixin BtnStyle($P, $BC) {
-    @include TetxStyle($FW:900, $FS:18px, $LH:100%, $LS:0px, $CLR:$clr-white, $MB:0px, $HCLR:$BC);
+    @include TetxStyle($FW:900, $FS:18px, $LH:100%, $LS:0px, $CLR:$clr-white, $MB:0px);
     padding: $P;
     border: 1px solid transparent;
     border-radius: 3px;
