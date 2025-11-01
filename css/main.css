@@ -541,4 +541,130 @@ body {
   .money__content-wrapper {
     margin-bottom: 50px;
   }
+}
+.feedback-section {
+  padding: 100px 159px;
+}
+
+.feedback {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 0px;
+  flex-direction: column;
+}
+
+.feedback__title {
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FEFEFE;
+  margin-bottom: 50px;
+  transition: all 0.3s;
+}
+
+.feedback__list {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 18px;
+  margin-bottom: 69px;
+}
+
+.feedback__item {
+  width: 440px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 0px;
+  flex-direction: column;
+  padding: 48px 58px 89px 56px;
+  background-color: #3C3C3C;
+  border-radius: 5px;
+  box-shadow: 2px 4px 15px 0px rgba(6, 12, 70, 0.1019607843);
+}
+
+.feedback__item-img {
+  margin-bottom: 17px;
+}
+
+.feedback__item-title {
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FEFEFE;
+  margin-bottom: 17px;
+  transition: all 0.3s;
+}
+
+.feedback__item-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FEFEFE;
+  margin-bottom: 17px;
+  transition: all 0.3s;
+}
+
+.feedback__btn {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FEFEFE;
+  margin-bottom: 0px;
+  transition: all 0.3s;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: #FEFEFE;
+  margin-bottom: 0px;
+  transition: all 0.3s;
+  padding: 18px 50px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  background-color: #49D6DF;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.feedback__btn:hover {
+  background-color: #FEFEFE;
+  color: #49D6DF;
+  border-color: #49D6DF;
+}
+
+@media (max-width: 907px) {
+  .feedback__item:first-child {
+    width: 100%;
+  }
+  .feedback__item:nth-child(2) {
+    display: none;
+  }
+}
+@media (max-width: 620px) {
+  .feedback__title {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FEFEFE;
+    margin-bottom: 25px;
+    transition: all 0.3s;
+  }
+  .feedback__item:first-child {
+    width: 300px;
+  }
+  .feedback__item-title {
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FEFEFE;
+    margin-bottom: 17px;
+    transition: all 0.3s;
+  }
 }/*# sourceMappingURL=main.css.map */
